@@ -1,0 +1,20 @@
+[
+    {
+        "src": "assets/images/photo-1.jpg",
+        "title": "Friends",
+        "description": "Party on Saturday",
+        "tags": ["friends", "electro", "happy", "night"]
+    },
+    {
+        "src": "assets/images/photo-2.jpg",
+        "title": "Placid",
+        "description": "A villa in Melliha, Malta",
+        "tags": ["love", "chill", "peace", "placid", "holidays"]
+    },
+    {
+        "src": "assets/images/photo-3.jpg",
+        "title": "Fast",
+        "description": "Speed & Light",
+        "tags": ["time", "night", "light", "dark"]
+    }
+]
