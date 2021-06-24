@@ -9,5 +9,26 @@
 }
 
 .h-min {
-  height: min-content;
+  height: min-content !important;
+}
+
+.h-vh {
+  height: 100vh !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-vw {
+  width: 100vw !important;
+}
+
+.NameCentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }

@@ -3,20 +3,5 @@
       "label": "home",
       "path": "/",
       "description": "Home"
-    },
-    {
-      "label": "instagram",
-      "path": "/instagram",
-      "description": "Instagram"
-    },
-    {
-      "label": "projects",
-      "path": "/projects",
-      "description": "Projects"
-    },
-    {
-      "label": "contact",
-      "path": "/contact",
-      "description": "Contact"
     }
   ]
