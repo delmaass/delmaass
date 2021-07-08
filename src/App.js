@@ -36,28 +36,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className={(this.state.darkMode) ? "dark" : ""}>
+      <div className={(this.state.darkMode) ? "dark overflow-x-hidden" : " overflow-x-hidden"}>
         <Router>
           <Switch render={({children}) => (<Fader className="dark:bg-gray-900">{children}</Fader>)}>
-            {/* <Route key="0 1 2 3" exact strict path="/:smtg">
-              <div className="flex flex-row">
-                <Sidebar switchDarkMode={ () => this.switchDarkMode() }/>
-                <Switch render={({children}) => (<Fader className="w-10/12 h-screen dark:bg-gray-700">{children}</Fader>)}>
-                  <Route key="0" path="/home">
-                    <Home.Panel/>
-                  </Route>
-                  <Route key="1" path="/instagram">
-                    <Instagram.Panel/>
-                  </Route>
-                  <Route key="2" path="/projects">
-                    <Projects.Panel/>
-                  </Route>
-                  <Route key="3" path="/contact">
-                    <Contact.Panel/>
-                  </Route>
-                </Switch>
-              </div>
-            </Route> */}
             <Route path="/">
               <Home key={ this.state.lang }
                 lang={ this.state.lang }
