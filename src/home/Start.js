@@ -28,7 +28,7 @@ const Start = (props) => (
             <h2 className="text-xl text-center md:text-2xl">{ props.content.description }</h2>
         </div>       
 
-        <div id="dark-mode-button" onClick={ props.switchDarkMode } className="z-0 m-6 w-12 h-12 rounded-full ring-2 p-2 ring-black dark:bg-gray-900 dark:text-white dark:ring-white absolute top-0 right-0">
+        <div id="dark-mode-button" onClick={ props.switchDarkMode } className="w-9 h-9 m-5 md:m-6 md:w-12 md:h-12 rounded-full ring-2 p-1.5 md:p-2 ring-black dark:bg-gray-900 dark:text-white dark:ring-white absolute top-0 right-0">
             <MoonIcon/>
         </div>     
     </header>

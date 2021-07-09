@@ -42,7 +42,7 @@ const Projects = (props) => (
                     { props.content.DivingSimulator.button }
                   </a>
                 </div>
-                <div className="mt-8 border-t border-gray-200 pt-6">
+                <div className="mt-8 border-t border-indigo-500 dark:border-gray-200 pt-6">
                     <blockquote>
                         <div>
                             <p className="text-base dark:text-white">
@@ -155,7 +155,7 @@ const Projects = (props) => (
                     { props.content.Pensees.button }
                   </a>
                 </div>
-                <div className="mt-8 border-t border-gray-200 pt-6">
+                <div className="mt-8 border-t border-indigo-500 dark:border-gray-200 pt-6">
                     <blockquote>
                         <div>
                             <p className="text-base dark:text-white">
