@@ -2,7 +2,7 @@ import { MailIcon } from '@heroicons/react/solid';
 import faceSunglasses from "../assets/images/face-sunglasses.png"
 
 const End = (props) => (
-    <footer className="container bg-white dark:bg-gray-900">
+    <footer className="container z-10 bg-white dark:bg-gray-900">
         <div className="flex flex-col lg:flex-row justify-between items-center">
             <h3 className="font-bold text-xl lg:text-4xl flex items-center">
                 { props.content.title }
@@ -19,14 +19,14 @@ const End = (props) => (
         <div className="py-12 lg:flex lg:items-center lg:justify-between">
             <div className="flex justify-center space-x-6 lg:order-2">
             {props.social.map((item) => (
-                <a target="_blank" key={item.name} href={item.href} className="text-white hover:text-gray-200">
+                <a target="_blank" key={item.name} href={item.href} className="dark:text-white hover:text-gray-200">
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
                 </a>
             ))}
             </div>
             <div className="mt-8 lg:mt-0 lg:order-1">
-            <p className="text-center text-base text-white">&copy; { props.content.copyright }</p>
+            <p className="text-center text-base dark:text-white">&copy; { props.content.copyright }</p>
             </div>
         </div>
     </footer>

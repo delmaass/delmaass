@@ -4,30 +4,30 @@ import logoMines from "../assets/images/logo-mines.jpeg";
 import penseesWritePage from "../assets/images/projects/pensees/write-page.PNG";
 
 const Projects = (props) => (
-    <div className="relative pt-16 pb-32 overflow-hidden bg-gradient-to-b dark:from-blue-900 dark:via-purple-900 dark:to-gray-900">
+    <div className="relative pt-16 pb-32 overflow-hidden bg-gradient-to-b from-blue-200 via-purple-200 to-white dark:from-blue-900 dark:via-purple-900 dark:to-gray-900">
       <div className="mt-24">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
               <div className="-m-2 flex flex-wrap space-xr-3">
-                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                   Full-stack
                 </span>
-                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                   React
                 </span>
-                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                   Bootstrap
                 </span>
-                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                   Express
                 </span>
-                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                   Socket.IO
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-bold tracking-tight dark:text-blue-100">
+                <h2 className="text-3xl font-bold tracking-tight text-indigo-700 dark:text-blue-100">
                   { props.content.DivingSimulator.title }
                 </h2>
                 <p className="mt-4 text-xl dark:text-white">
@@ -37,7 +37,7 @@ const Projects = (props) => (
                   <a
                     target="_blank"
                     href="https://github.com/delmaass/interface-diving-simulator"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:bg-blue-700 dark:hover:bg-blue-800"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-700 hover:bg-indigo-800 dark:bg-blue-700 dark:hover:bg-blue-800"
                   >
                     { props.content.DivingSimulator.button }
                   </a>
@@ -58,7 +58,7 @@ const Projects = (props) => (
                                     alt=""
                                 />
                                 </div>
-                                <div className="text-base font-medium text-blue-100">MINES ParisTech</div>
+                                <div className="text-base font-medium text-indigo-500 dark:text-blue-100">MINES ParisTech</div>
                             </div>
                         </footer>
                     </blockquote>
@@ -85,18 +85,18 @@ const Projects = (props) => (
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-24 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
                 <div className="-m-2 flex flex-wrap space-xr-3">
-                    <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                    <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                     Frontend
                     </span>
-                    <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                    <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                     React
                     </span>
-                    <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                    <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                     Tailwind
                     </span>
                 </div>
               <div className="my-6">
-                <h2 className="text-3xl font-bold tracking-tight dark:text-blue-100">
+                <h2 className="text-3xl font-bold tracking-tight text-indigo-700 dark:text-blue-100">
                   { props.content.LTH.title }
                 </h2>
                 <p className="mt-4 text-xl dark:text-white">
@@ -106,7 +106,7 @@ const Projects = (props) => (
                   <a
                     target="_blank"
                     href="https://www.delmaass.com/lth"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:bg-blue-700 dark:hover:bg-blue-800"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm bg-indigo-700 text-white dark:bg-blue-700 dark:hover:bg-blue-800"
                   >
                     { props.content.LTH.button }
                   </a>
@@ -132,15 +132,15 @@ const Projects = (props) => (
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
               <div className="-m-2 flex flex-wrap space-xr-3">
-                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                   Full-stack
                 </span>
-                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase dark:bg-blue-100 dark:text-blue-900">
+                <span className="m-2 px-4 py-2 rounded-md flex items-center justify-center font-bold uppercase bg-indigo-500 text-white dark:bg-blue-100 dark:text-blue-900">
                   PHP
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-bold tracking-tight dark:text-blue-100">
+                <h2 className="text-3xl font-bold tracking-tight text-indigo-700 dark:text-blue-100">
                   { props.content.Pensees.title }
                 </h2>
                 <p className="mt-4 text-xl dark:text-white">
@@ -150,7 +150,7 @@ const Projects = (props) => (
                   <a
                     target="_blank"
                     href="http://pensees.me/"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:bg-blue-700 dark:hover:bg-blue-800"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm bg-indigo-700 text-white dark:bg-blue-700 dark:hover:bg-blue-800"
                   >
                     { props.content.Pensees.button }
                   </a>
@@ -164,7 +164,7 @@ const Projects = (props) => (
                         </div>
                         <footer className="mt-3">
                             <div className="flex items-center space-x-3">
-                                <div className="text-base font-medium text-blue-100">{ props.content.Pensees.commentator }</div>
+                                <div className="text-base font-medium text-indigo-500 dark:text-blue-100">{ props.content.Pensees.commentator }</div>
                             </div>
                         </footer>
                     </blockquote>

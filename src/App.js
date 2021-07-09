@@ -14,7 +14,7 @@ class App extends React.Component {
 
     this.state = {
       darkMode: true,
-      lang: "EN"
+      lang: "FR"
     }
   }
 
@@ -42,8 +42,8 @@ class App extends React.Component {
             <Route path="/">
               <Home key={ this.state.lang }
                 lang={ this.state.lang }
-                switchDarkMode={ this.switchDarkMode }
                 changeLang={ this.changeLang }
+                switchDarkMode={ this.switchDarkMode }
               />
             </Route>
           </Switch>

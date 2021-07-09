@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
 
 import FR from "./config/FR.json";
 import EN from "./config/EN.json";
@@ -81,6 +80,7 @@ class Home extends React.Component {
         }
 
         this.changeLang = props.changeLang;
+        this.switchDarkMode = props.switchDarkMode;
 
         this.state = {
             text: text,
@@ -140,6 +140,7 @@ class Home extends React.Component {
                     text={ this.state.actualText }
                     hideName={ this.state.hideName }
                     changeLang={ this.changeLang }
+                    switchDarkMode={ this.switchDarkMode }
                     content={ this.state.content.Start }
                 />
                 <Biography
@@ -153,7 +154,7 @@ class Home extends React.Component {
                 <End
                     social={ social }
                     content={ this.state.content.End }
-                />
+                /> 
             </div>
         );
     }

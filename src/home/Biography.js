@@ -2,7 +2,7 @@ import photoBiography from "../assets/images/2D1A1114-v2-min.JPG";
 import wavingHand from "../assets/images/waving-hand.png";
 
 const Biography = (props) => (
-    <div className="bg-gradient-to-b from-white to-blue-300 dark:from-gray-900  dark:to-blue-900">
+    <div className="bg-gradient-to-b from-white to-blue-200 dark:from-gray-900  dark:to-blue-900">
         <article className="container dark:text-white transition-all">
             <div className="flex flex-col-reverse lg:grid lg:grid-cols-3 lg:gap-16">
 
