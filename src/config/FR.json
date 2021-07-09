@@ -1,0 +1,35 @@
+{
+    "Start": {
+        "textBackground": "",
+        "description": "Développeur full-stack"
+    },
+    "Biography": {
+        "title": "Bienvenue !",
+        "text": "Moi, c'est Louis ! J'ai un peu moins de 20 ans à l'heure où j'écris ces lignes.\/J'étudie actuellement à l'école des Mines de Paris, en deuxième année du cursus Ingénieur Civil.\/J'affectionne particulièrement l'écriture, et je me suis plu ces dernières années à développer des outils permettant aux gens de s'exprimer librement.\/C'est ainsi que Pensées vu le jour il y a un peu plus de deux ans. Je travaille actuellement sur une grande refonte de l'application, nom de code Harmonie. Un autre projet en lien avec l'écriture va aussi voir le jour d'ici la fin d'année.\/Dans le cadre de mes études, j'ai eu l'opportunité de travailler auprès de différents clients dont Air Liquide et le CHU de Nice dans la réalisation d'applications innovantes.\/Je réalise également depuis plus d'un an des commandes auprès d'entreprises ou de particuliers.\/Vous pouvez retrouvez quelques-uns de mes derniers travaux sur cette page. Bonne visite, et au plaisir d'échanger sur n'importe lequel de vos projets !"
+    },
+    "Projects": {
+        "DivingSimulator": {
+            "title": "Interface de contrôle d'un simulateur de plongée",
+            "description": "Pour pouvoir mener à bien ses expérimentations, les médecins du CHU de Nice avaient besoin d'une interface de contrôle simple pour un simulateur de plongée virtuelle - développé par mes collègues sous Unity.",
+            "comment": "Bravo à Marguerite, Louis, François et Anatole, élèves ingénieurs, qui ont conçu et développé un prototype de simulateur de plongée en réalité virtuelle. Un projet qui s'articule autour des bénéfices de la plongée sous-marine pour traiter le stress post traumatique. @CHUdeNice",
+            "button": "En savoir plus"
+        },
+        "LTH": {
+            "title": "Refonte du site vitrine de LTH",
+            "description": "LTH est une entreprise de location de télévision dans les hôpitaux. Pour attirer de nouveaux clients et fournir une information de qualité aux patients des hôpitaux, LTH m'a fait appel pour moderniser son site vitrine et revoir sa stratégie SEO.",
+            "button": "En savoir plus"       
+        },
+        "Pensees": {
+            "title": "Pensées, première plateforme d'écriture en France",
+            "description": "Créé en 2019, Pensées est mon tout premier gros projet. L'objectif est de permettre à toutes et tous de s'exprimer librement et de mettre à l'écrit ses pensées, puis de partager ou non ses écrits. Fin 2021, l'architecture logicielle de Pensées évoluera pour améliorer les services fournis. Nom de code : Harmonie.",
+            "comment": "Je vous remercie car, en tant qu'écrivain débutant, le fait d'avoir un espace d'expression simple et accessible à tous est une félicité. Aussi, les trois thèmes proposés par semaine m'encouragent à écrire sur différents sujets sans avoir de préparation, ce qui est certainement un bon exercice.",
+            "commentator": "P.Dubois, utilisateur de Pensées",
+            "button": "En savoir plus"
+        }
+    },
+    "End": {
+        "title": "Et si on travaillait ensemble ?",
+        "contact": "Contactez-moi !",
+        "copyright": "2021 Louis Delmas. Tous droits réservés."
+    }
+}

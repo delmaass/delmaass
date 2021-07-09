@@ -13,7 +13,7 @@ const Biography = (props) => (
                     
                     <div className="flex space-x-6 md:order-2">
                         {props.social.map((item) => (
-                        <a key={item.name} href={item.href} className="dark:text-gray-200 dark:hover:text-gray-100">
+                        <a target="_blank" key={item.name} href={item.href} className="dark:text-gray-200 dark:hover:text-gray-100">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-8 w-8" aria-hidden="true" />
                         </a>
@@ -23,31 +23,15 @@ const Biography = (props) => (
 
                 <div className="md:col-span-2 text-lg md:text-xl">
                     <h3 className="flex flex-row items-center text-2xl md:text-5xl font-bold tracking-tight mb-8">
-                        Hi there!
+                        { props.content.title }
                         <img className="animate-wave w-12 ml-4" src={ wavingHand } alt="" />
                     </h3>
                     
-                    <p className="my-2">
-                        Moi, c'est Louis ! J'ai un peu moins de 20 ans à l'heure où j'écris ces lignes.
-                    </p>
-                    <p className="my-2">
-                        J'étudie actuellement à l'école des <b>Mines de Paris</b>, en deuxième année du cursus Ingénieur Civil.
-                    </p>
-                    <p className="my-2">
-                        J'affectionne particulièrement l'écriture, et je me suis plu ces dernières années à développer des outils permettant aux gens de s'exprimer librement.
-                    </p>
-                    <p className="my-2">
-                        C'est ainsi que <b>Pensées</b> vu le jour il y a un peu plus de deux ans. Je travaille actuellement sur une grande refonte de l'application, nom de code Harmonie. Un autre projet en lien avec l'écriture va aussi voir le jour d'ici la fin d'année.
-                    </p>
-                    <p className="my-2">
-                        Dans le cadre de mes études, j'ai eu l'opportunité de travailler auprès de différents clients dont <b>Air Liquide</b> et le <b>CHU de Nice</b> dans la réalisation d'applications innovantes.
-                    </p>
-                    <p className="my-2">
-                        Je réalise également depuis plus d'un an des commandes auprès d'entreprises ou de particuliers.
-                    </p>
-                    <p className="my-2">
-                        Vous pouvez retrouvez quelques-uns de mes derniers travaux sur cette page. Bonne visite, et au plaisir d'échanger sur n'importe lequel de vos projets !
-                    </p>
+                    { props.content.text.split("\/").map((item) => (
+                        <p className="my-2">
+                            { item }
+                        </p>
+                    )) }
                 </div>
             </div>
         </article>

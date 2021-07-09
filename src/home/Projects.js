@@ -5,7 +5,7 @@ import lthFirstPage from "../assets/images/projects/lth/first-page.png";
 import logoMines from "../assets/images/logo-mines.jpeg";
 import penseesWritePage from "../assets/images/projects/pensees/write-page.PNG";
 
-const Projects = () => (
+const Projects = (props) => (
     <div className="relative pt-16 pb-32 overflow-hidden bg-gradient-to-b dark:from-blue-900 dark:via-purple-900 dark:to-gray-900">
       <div className="mt-24">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
@@ -30,19 +30,17 @@ const Projects = () => (
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-bold tracking-tight dark:text-blue-100">
-                  Interface de contrôle d'un simulateur de plongée
+                  { props.content.DivingSimulator.title }
                 </h2>
                 <p className="mt-4 text-xl dark:text-white">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+                  { props.content.DivingSimulator.description }
                 </p>
                 <div className="mt-6">
                   <a
                     href="#"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:bg-blue-700 dark:hover:bg-blue-800"
                   >
-                    En savoir plus
+                    { props.content.DivingSimulator.button }
                   </a>
 
                     {/* Add Github link */}
@@ -51,9 +49,7 @@ const Projects = () => (
                     <blockquote>
                         <div>
                             <p className="text-base dark:text-white">
-                                &ldquo;Bravo à Marguerite, Louis, François et Anatole, élèves ingénieurs, qui ont conçu et développé un
-                                prototype de simulateur de plongée en réalité virtuelle. Un projet qui s'articule autour des bénéfices
-                                de la plongée sous-marine pour traiter le stress post traumatique. @CHUdeNice&rdquo;
+                                &ldquo;{ props.content.DivingSimulator.comment }&rdquo;
                             </p>
                         </div>
                         <footer className="mt-3">
@@ -102,19 +98,17 @@ const Projects = () => (
                 </div>
               <div className="my-6">
                 <h2 className="text-3xl font-bold tracking-tight dark:text-blue-100">
-                  Refonte du site vitrine de LTH - ATC
+                  { props.content.LTH.title }
                 </h2>
                 <p className="mt-4 text-xl dark:text-white">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+                  { props.content.LTH.description }
                 </p>
                 <div className="mt-6">
                   <a
                     href="#"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:bg-blue-700 dark:hover:bg-blue-800"
                   >
-                    En savoir plus
+                    { props.content.LTH.button }
                   </a>
 
                     {/* Add Github link */}
@@ -149,19 +143,17 @@ const Projects = () => (
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-bold tracking-tight dark:text-blue-100">
-                  Pensées, première plateforme d'écriture en France
+                  { props.content.Pensees.title }
                 </h2>
                 <p className="mt-4 text-xl dark:text-white">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+                  { props.content.Pensees.description }
                 </p>
                 <div className="mt-6">
                   <a
                     href="#"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:bg-blue-700 dark:hover:bg-blue-800"
                   >
-                    En savoir plus
+                    { props.content.Pensees.button }
                   </a>
 
                     {/* Add Github link */}
@@ -170,14 +162,12 @@ const Projects = () => (
                     <blockquote>
                         <div>
                             <p className="text-base dark:text-white">
-                                &ldquo;Je vous remercie car, en tant qu'écrivain débutant, le fait d'avoir un espace d'expression simple
-                                et accessible à tous est une félicité. Aussi, les trois thèmes proposés par semaine m'encouragent à
-                                écrire sur différents sujets sans avoir de préparation, ce qui est certainement un bon exercice.&rdquo;
+                                &ldquo;{ props.content.Pensees.comment }&rdquo;
                             </p>
                         </div>
                         <footer className="mt-3">
                             <div className="flex items-center space-x-3">
-                                <div className="text-base font-medium text-blue-100">P.Dubois, utilisateur de Pensées</div>
+                                <div className="text-base font-medium text-blue-100">{ props.content.Pensees.commentator }</div>
                             </div>
                         </footer>
                     </blockquote>

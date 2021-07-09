@@ -24,7 +24,7 @@ const Start = (props) => (
 
         <div style={ props.hideName ? {opacity: 0} : {} } className="NameCentered z-10 flex flex-col items-center p-1 md:p-5 bg-white dark:bg-gray-900 transition-all">
             <h1 className="font-styled text-6xl md:text-8xl">Delmas</h1>
-            <h2 className="text-xl text-center md:text-2xl font-medium">Full-stack developer</h2>
+            <h2 className="text-xl text-center md:text-2xl font-medium">{ props.content.description }</h2>
         </div>            
     </header>
 );

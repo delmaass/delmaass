@@ -1,0 +1,35 @@
+{
+    "Start": {
+        "textBackground": "",
+        "description": "Full-stack developer"
+    },
+    "Biography": {
+        "title": "Hi there!",
+        "text": "My name is Louis! I'm a little less than 20 years old as I write these lines.\/I'm currently studying at the Ecole des Mines de Paris, in the second year of the Civil Engineering program.\/I'm particularly fond of writing, and I've enjoyed developing tools that allow people to express themselves freely.\/This is how Pensées was born a little more than two years ago. I am currently working on a major redesign of the application, codenamed Harmonie. Another project related to writing will also see the light of day by the end of the year.\/During my studies, I had the opportunity to work with different clients such as Air Liquide and the CHU of Nice in the creation of innovative applications.\/I have also been working for more than a year with companies and individuals.\/You can find some of my last works on this page. Enjoy your visit, and I look forward to discussing any of your projects!"
+    },
+    "Projects": {
+        "DivingSimulator": {
+            "title": "Control interface of a diving simulator",
+            "description": "In order to carry out their experiments, the doctors of the Nice University Hospital needed a simple control interface for a virtual diving simulator - developed by my colleagues under Unity.",
+            "comment": "Congratulations to Marguerite, Louis, François and Anatole, engineering students, who designed and developed a virtual reality diving simulator prototype. A project that focuses on the benefits of scuba diving to treat post-traumatic stress. @CHUdeNice",
+            "button": "More information"
+        },
+        "LTH": {
+            "title": "Redesign of the LTH showcase site",
+            "description": "LTH is a hospital TV rental company. To attract new customers and provide quality information to hospital patients, LTH called me to modernize its website and review its SEO strategy.",
+            "button": "More information"       
+        },
+        "Pensees": {
+            "title": "Pensées, the first writing platform in France",
+            "description": "Created in 2019, Pensées is my very first big project. The goal is to allow everyone to express themselves freely and to write down their thoughts, then to share or not their writings. At the end of 2021, the software architecture of Pensées will evolve to improve the services provided. Code name: Harmonie.",       
+            "comment": "I thank you because, as a beginner writer, having a simple and accessible space for expression is a blessing. Also, the three themes offered per week encourage me to write on different topics without having any preparation, which is certainly a good exercise.",
+            "commentator": "P.Dubois, user of Pensées",
+            "button": "More information"
+        }
+    },
+    "End": {
+        "title": "How about working together?",
+        "contact": "Please contact me!",
+        "copyright": "2021 Louis Delmas. All rights reserved."
+    }
+}
