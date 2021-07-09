@@ -37,13 +37,12 @@ const Projects = (props) => (
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    target="_blank"
+                    href="https://github.com/delmaass/interface-diving-simulator"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:bg-blue-700 dark:hover:bg-blue-800"
                   >
                     { props.content.DivingSimulator.button }
                   </a>
-
-                    {/* Add Github link */}
                 </div>
                 <div className="mt-8 border-t border-gray-200 pt-6">
                     <blockquote>
@@ -74,7 +73,7 @@ const Projects = (props) => (
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 src={ divingSimulator }
-                alt="Customer profile user interface"
+                alt="Diving simulator interface made in Javascript (full-stack)"
               />
             </div>
           </div>
@@ -105,13 +104,12 @@ const Projects = (props) => (
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    target="_blank"
+                    href="https://www.delmaass.com/lth"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:bg-blue-700 dark:hover:bg-blue-800"
                   >
                     { props.content.LTH.button }
                   </a>
-
-                    {/* Add Github link */}
                 </div>
               </div>
             </div>
@@ -122,7 +120,7 @@ const Projects = (props) => (
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src={ lthFirstPage }
-                alt="Inbox user interface"
+                alt="LTH website made with Tailwind"
               />
             </div>
           </div>
@@ -150,13 +148,12 @@ const Projects = (props) => (
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    target="_blank"
+                    href="http://pensees.me/"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:bg-blue-700 dark:hover:bg-blue-800"
                   >
                     { props.content.Pensees.button }
                   </a>
-
-                    {/* Add Github link */}
                 </div>
                 <div className="mt-8 border-t border-gray-200 pt-6">
                     <blockquote>
@@ -180,7 +177,7 @@ const Projects = (props) => (
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 src={ penseesWritePage }
-                alt="Customer profile user interface"
+                alt="Write page from Pensées application, made in PHP"
               />
             </div>
           </div>

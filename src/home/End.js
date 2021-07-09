@@ -9,7 +9,7 @@ const End = (props) => (
                 <img className="w-12 ml-4" src={ faceSunglasses } alt="" />
             </h3>
             <a
-                href="#"
+                href="mailto:louis.delmas@outlook.com"
                 className="inline-flex items-center px-6 py-3 border border-transparent shadow-sm text-xl font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
                 { props.content.contact }
